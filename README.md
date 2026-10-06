@@ -1,4 +1,4 @@
-# Visual Odometry (Python)
+# (Very) basis visual odometry 
 This is a small **monocular** visual odometry pipeline in Python that estimates camera pose from image sequences.
 It runs on KITTI (sequence 5) dataset using two view initialization, KLT tracking, PnP pose updates, and triangulation. It also includes live visualization and trajectory evaluation with alignment, ATE, and RTE metrics.
 
